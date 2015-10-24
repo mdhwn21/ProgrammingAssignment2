@@ -1,7 +1,7 @@
-## Modeling the inverse function affter the example in the course for mean 
+## Modelling the inverse function after the example in the course for mean 
 ## make cache matrix makes a cache 
 
-## Makes a special matric which caches its inverse
+## Makes a special matrix which caches its inverse - final version
 
 makeCacheMatrix <- function(x = matrix()) {
 	m<-NULL
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## this function either computes the inverse or get the cached 
-## version of the inverse
+## version of the inverse - final version
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
